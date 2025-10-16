@@ -1,0 +1,33 @@
+
+:root {
+
+    /*------colors------*/
+    --blue:#0F1477;
+    --font-color: #333333;
+    --gray: #2C3E50;
+    --dark-red: #861717;
+
+    /*-------font------*/
+
+}
+
+body{
+    padding: 0;
+    margin: 0;
+
+}
+
+header{
+    background-color: var(--blue);
+    height: 90px;
+    display: flex;
+
+}
+
+.sosial-icons svg{
+    width: 30px;
+    height: 30px;
+    color: white;
+
+
+}
