@@ -3,11 +3,13 @@
 
     /*------colors------*/
     --blue:#0F1477;
-    --font-color: #333333;
+    --font-color: #d5d5d5;
     --gray: #2C3E50;
     --dark-red: #861717;
 
     /*-------font------*/
+
+    --font-size: 40px;
 
 }
 
@@ -17,17 +19,70 @@ body{
 
 }
 
-header{
-    background-color: var(--blue);
-    height: 90px;
-    display: flex;
-
+p{
+    color: var(--font-color);
+    font-size: var(--font-size);
+    margin: 0px;
+    padding: 0px;
+    font-weight: lighter;
 }
 
-.sosial-icons svg{
-    width: 30px;
-    height: 30px;
+.flip {
+    transform: scaleX(-1);
+    /*transform-origin: center;*/
+}
+
+
+
+.header__container{
+    background-color: var(--blue);
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social__icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    padding-left: 30px;
+}
+
+.social__icons svg{
+    width: 43px;
+    height: 43px;
     color: white;
 
 
 }
+
+.contact{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 30px;
+    padding-right: 25px;
+
+}
+
+.contact svg{
+    width: 60px;
+    height: 60px;
+    color: white;
+}
+
+
+
+.contact__info p {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 5px;
+
+
+}
+
+
